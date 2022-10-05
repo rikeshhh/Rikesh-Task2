@@ -1,0 +1,218 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?e4lqu3');
+    src:  url('../fonts/icomoon.eot?e4lqu3#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?e4lqu3') format('truetype'),
+      url('../fonts/icomoon.woff?e4lqu3') format('woff'),
+      url('../fonts/icomoon.svg?e4lqu3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-email:before {
+    content: "\e900";
+  }
+  .icon-phone:before {
+    content: "\e901";
+  }
+  .icon-location:before {
+    content: "\e947";
+  }
+  .icon-user:before {
+    content: "\e971";
+  }
+.icon{
+&-email { 
+    padding: 10px;
+       font-size: 30px;
+}
+&-phone{
+    padding: 10px;
+    font-size: 30px;
+} 
+&-user{
+    padding: 10px;
+    font-size: 30px;
+}
+&-location{
+    padding: 10px;
+    font-size: 30px;
+}
+}
+
+ 
+.navbar{
+    height: 68.73px;
+    &-text-top{
+        width: 46.95px;
+height: 17px;
+left: 175px;
+top: 26px;
+
+    }
+    img{
+        margin-left: 114px;
+    }
+.flex {
+    display: flex;
+    height: 16px;
+    left: 748px;
+      top: 28px;
+      bottom: 27.5px;
+     li {
+        padding: 0px 24px 27px 24px;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13.33px;
+        line-height: 17px;
+        color: #000000;
+    }
+    li:last-child{
+        margin-right: 115px;
+    }
+}
+}
+.imageBackground{
+height: 607.91px;
+object-fit: contain;
+background-repeat:no-repeat;
+background-image: url("../image/building.jpg");
+background-size: cover;
+background-position: center; 
+}
+h1
+{
+    position: absolute;
+    width: 163px;
+    height: 22.16px;
+    left: 112px;
+    top: 754px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    /* or 88% */
+    
+    
+    color: #1A1A1A;
+    
+}
+.card{
+    margin-top: 121px;
+    padding-top: 40px;
+    text-align: center;
+&-text{
+    padding-top: 20px;
+    text-align: center;
+}
+span{
+    border-radius: 60px;
+width: 60px;
+height: 79.32px;
+margin-left: 102px;
+margin-right: 101px;
+margin-bottom: 24px;
+margin-top: 25.33px;
+background: rgba(26, 135, 230, 0.16);
+text-align: center;
+}
+}
+#para{
+    margin-top: 72px;
+}
+.grid-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 266px 553px 266px;
+    grid-template-rows: 171px;
+    justify-content: space-around;
+
+    .grid-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #2159AB;
+    }
+
+    #image {
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+    }
+
+    .grid-2 {
+        border: 1px solid #2159AB;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .grid-3 {
+        border: 1px solid #2159AB;
+        font-size: 12px;
+
+    }
+}
+.page{
+    &-footer{
+        margin-top: 344px;       
+        background: rgba(26, 135, 230, 0.16);
+}
+}
+.container{
+    h3{
+        width: 163px;
+        height: 21px;
+        left: 119px;
+        margin-top: 70px;
+        padding: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 21px;
+        color: #1A1A1A;
+        }
+        h4{
+            width: 163px;
+height: 21px;
+left: 119px;
+padding: 40px;
+margin-top: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 21px;
+color: #1A1A1A;
+        }
+}
+.lorem{
+    h2{
+        margin-top: 158px;
+    }
+    p{
+        margin-top: 24.4px;
+    }
+}
